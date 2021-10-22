@@ -1,0 +1,45 @@
+body{
+    background: black;
+}
+
+.postcard{
+    background: white; 
+    width: 34%; 
+    margin: auto; 
+    padding: 25px;
+    position: relative;
+}
+
+
+img{
+    height: 4rem;
+    position: absolute;
+    right: 1rem;
+    top: 5px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.send-btn{
+    text-align: center;
+}
+
+.bodycard{
+    display: flex;
+}
+
+.right{
+    margin: 1rem;
+}
+
+div input{
+    margin-bottom: 5px;
+}
+
+p{
+    justify-content: center;
+}
